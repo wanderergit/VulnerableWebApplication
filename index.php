@@ -8,11 +8,11 @@
 
 <body>
    <link rel="stylesheet" href="Resources/button.css">
-   <div class="button" align="center" style="background-color:#757575;padding:10px;border-radius:80px 80px 0px 0px">
-      <button type="button" name="homepagebutton" onclick="location.href='homepage.html'">Home Page</button>
+   <div class="button" align="center" style="background-color:#F08080;padding:30px">
+      <button type="button" name="homepagebutton" style="background-color:#FFFFE0" onclick="location.href='homepage.html'">Home Page</button>
    </div>
    </link>
-   <div align="center" style="background-color:#c9c9c9;padding:150px;">
+   <div align="center" style="background-color:#ECA1A1;padding:20px; min-height: 76vh">
 
       <form method="POST">
          <label style="font-size:24px;font-family:'Georgia'">Create Database:&ensp;</label>
@@ -23,7 +23,7 @@
          <input type="submit" name="submit1" value="Enter" style="padding:8px;font-family:'Georgia'"></form>
    </div>
 
-   <div align="center" style="background-color:#afafaf;padding:60px;border-radius:0px 0px 80px 80px">
+   <div align="center" style="background-color:#F08080;padding:60px;border-radius:0px 0px 80px 80px">
       <?php
 
       if (isset($_POST["submit"])) {
